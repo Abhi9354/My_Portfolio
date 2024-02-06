@@ -19,7 +19,7 @@ const NavBar = () => {
     
   const content = 
     <>
-      <div className="lg:hidden block absolute  top-16 w-full left-0 right-0 bg-slate-900 transition">
+      <div className="lg:hidden block absolute  top-16 w-4/5 left-0 right-0 bg-slate-900 transition">
         <ul className="text-center text-xl p-20">
           <Link spy={true} smooth={true} to="Home">
             <li className="my-4 py-4 border-b text-white border-slate-800 hover:bg-slate-800 hover:rounded">
@@ -51,10 +51,10 @@ const NavBar = () => {
     </>
   
   return (
-    <div>
-      <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
+    <div className="">
+      <div className="h-10vh flex justify-between w-full z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
         <div className="flex items-center flex-1">
-          <span className="text-3x1 font-bold">LOGO</span>
+          <span className="text-3x1 font-bold ">LOGO</span>
         </div>
         <div className="lg:flex md:flex lg:flex-1 item center justify-end font-normal hidden">
           <div className="flex-10">
@@ -77,11 +77,11 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-        <button className="block  sm:hidden transition font-bold" onClick={handleClick}>
+        <button className="block z-10 sm:hidden bg-blue-500 transition font-bold" onClick={handleClick}>
         {click ? <FaTimesCircle/> :<CiMenuFries/>}
       </button>
       </div>
-      <div>
+      <div className="">
            {click && content}
       </div>
      

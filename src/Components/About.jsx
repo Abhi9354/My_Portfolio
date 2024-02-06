@@ -2,6 +2,8 @@
 import AOS from 'aos'
 import { useEffect } from 'react'
 import img from '../assets/Profile1.jpeg'
+import resume from '../assets/resume.pdf'
+
 
 
 
@@ -28,7 +30,7 @@ I am Abhishek Kumar, an enthusiastic and driven student pursuing Computer Scienc
           <div className="flex space-x-2" >
              <button className="neno-button shadow-xl border-fuchsia-500 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden "><a
      
-     href="https://drive.google.com/drive/folders/1br4WrxTl5dhoI-YTgw4W902BnufahYD_?usp=drive_link"
+     href={resume}
      download="resume.pdf"
      >
     Download Resume
