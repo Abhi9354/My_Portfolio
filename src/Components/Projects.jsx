@@ -1,4 +1,4 @@
-import img1 from '../assets/img1.jpeg'
+import img1 from '../assets/img1.jpg'
 import img2 from '../assets/img2.jpeg'
 
 import img3 from '../assets/img3.jpeg'
@@ -21,11 +21,11 @@ const Projects = () => {
         Projects
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-4 ">
-        <img data-aos="fade-up"
+        <a href="https://car-showcase-app-iota.vercel.app/"><img data-aos="fade-up"
          height={250} width={250} className="text-[26px] flex items-center justify-center rounded-3xl h-36  p-1 border-2 border-fuchsia-800 b_glow"
           src={img1}
           alt=""
-        />
+        /></a>
         <img data-aos="fade-down"
          height={250} width={250} className="text-[26px] flex items-center justify-center  rounded-3xl h-36  p-1 border-2 border-fuchsia-800 b_glow"
           src={img2}

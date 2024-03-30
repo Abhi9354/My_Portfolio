@@ -16,6 +16,7 @@ const Service = () => {
         <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-br-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">CSS3</h2>
         <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-br-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Javascript</h2>
         <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-br-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">React</h2>
+        <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-br-3xl h-36 w-44 border-2 border-fuchsia-800 b_glow">Next JS</h2>
       </div>
     </div>
   )
